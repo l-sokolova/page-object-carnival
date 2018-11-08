@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login Page" verbose="1" >
+    <test name="Regression suite for login functionality Happy" >
+        <classes>
+            <class name="com.lenka.login.LoginHappyPath"/>
+        </classes>
+    </test>
+    <test name="Regression suite for login functionality Unhappy" >
+        <classes>
+            <class name="com.lenka.login.LoginUnhappyPath"/>
+        </classes>
+    </test>
+</suite>
