@@ -11,11 +11,9 @@ import static com.lenka.service.LogFormatter.setUpLogger;
 import static com.lenka.view.LiteCart.LOGOUT_LINK;
 
 public class Logout extends Page {
-    private final Logger log = Logger.getLogger(Login.class.getName());
 
     public Logout(WebDriver driver) {
         super(driver);
-        setUpLogger(log);
     }
 
     public Login pressLogoutButton() {

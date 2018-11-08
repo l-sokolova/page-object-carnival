@@ -18,12 +18,11 @@ public class SearchHappyPath extends TestCase {
 
     private final static String SEARCH_KWD_1 = getProperty("search.keyword.1");
     private final static String SEARCH_KWD_2 = getProperty("search.keyword.2");
-    //private WebDriver driver;
+
     private Search searchPage;
 
     @BeforeMethod
     public void setUpTest() {
-      //  driver = getBrowser();
         log.info("TEST STARTS ");
     }
 

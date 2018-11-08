@@ -18,14 +18,11 @@ public class LoginUnhappyPath extends TestCase {
     private static final String PASSWORD = getProperty("password.1");
     private static final String EMPTY_STR = "";
 
-
-    //private WebDriver driver;
     private Login loginPage;
 
     @BeforeMethod
     public void setUpTest() {
-        //driver = getBrowser();
-        log.info("                        TEST STARTS                      ");
+        log.info("TEST STARTS");
     }
 
     @DataProvider
@@ -52,6 +49,6 @@ public class LoginUnhappyPath extends TestCase {
 
     @AfterMethod
     public void logOut() {
-        log.info("                        TEST ENDS                      ");
+        log.info("TEST ENDS");
     }
 }

@@ -15,7 +15,6 @@ import static com.lenka.view.LiteCart.*;
 
 public class LoginHappyPath extends TestCase {
 
-   // private WebDriver driver;
     private Login loginPage;
     private Logout logoutPage;
 
@@ -24,8 +23,7 @@ public class LoginHappyPath extends TestCase {
 
     @BeforeMethod
     public void setUpTest() {
-        log.info("                        TEST STARTS                      ");
-       // driver = getBrowser();
+        log.info("TEST STARTS");
         loginPage = new Login(driver);
         loginPage.navigateToLoginPage();
     }

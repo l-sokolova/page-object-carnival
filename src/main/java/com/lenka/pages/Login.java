@@ -15,16 +15,13 @@ import static com.lenka.view.LiteCart.PASSWORD_INPUT;
 
 public class Login extends Page{
 
-    private final Logger log = Logger.getLogger(Login.class.getName());
-
     public Login(WebDriver driver) {
         super(driver);
-        setUpLogger(log);
     }
 
     public Login navigateToLoginPage() {
-        log.info("Navigating to Login Page");
         driver.navigate().to(getProperty("base.url"));
+        log.info("Navigating to Login Page");
         return this;
     }
 

@@ -19,7 +19,6 @@ public abstract class TestCase {
 
     @BeforeTest
     public void setUp(){
-       // setUpLogger(log);
         driver.manage().window().maximize();
         log.info("Browser is opened");
     }
