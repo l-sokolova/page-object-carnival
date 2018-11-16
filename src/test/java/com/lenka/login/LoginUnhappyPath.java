@@ -2,7 +2,6 @@ package com.lenka.login;
 
 import com.lenka.TestCase;
 import com.lenka.pages.Login;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

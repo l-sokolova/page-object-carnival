@@ -17,10 +17,7 @@ public class Logout extends Page {
     }
 
     public Login pressLogoutButton() {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(LOGOUT_LINK.getLocator())));
-        driver.findElement(By.xpath(LOGOUT_LINK.getLocator())).click();
-        log.info("Pressing "+LOGOUT_LINK.getDescription());
+        pressTheButton(LOGOUT_LINK);
         return new Login(driver);
     }
 }

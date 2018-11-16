@@ -3,7 +3,6 @@ package com.lenka.login;
 import com.lenka.TestCase;
 import com.lenka.pages.Login;
 import com.lenka.pages.Logout;
-import org.openqa.selenium.WebDriver;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -60,6 +59,6 @@ public class LoginHappyPath extends TestCase {
 
     @AfterMethod
     public void logOut() {
-        log.info("                        TEST ENDS                      ");
+        log.info("TEST ENDS");
     }
 }
