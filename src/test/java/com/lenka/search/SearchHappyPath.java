@@ -20,7 +20,7 @@ public class SearchHappyPath extends TestCase {
 
     @BeforeMethod
     public void setUpTest() {
-        log.info("TEST STARTS ");
+        log.info("TEST STARTS !!");
     }
 
     @Test
